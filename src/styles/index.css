@@ -9,3 +9,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.traffic-light{
+    width: 3rem;
+    height: 3rem
+}
+
+.warning{
+    background-color: rgb(172, 184, 5);
+}
+
+.danger{
+    background-color: rgb(129, 0, 0);
+}
+
+.success{
+    background-color: green;
+}
+
+.danger-glow{
+    box-shadow: 0rem 0rem 2rem 0.5rem rgb(245, 13, 13);
+    background-color: red;
+}
+
+.warning-glow{
+    box-shadow: 0rem 0rem 2rem 0.5rem yellow;
+    background-color: yellow;
+}
+
+.success-glow{
+    box-shadow: 0rem 0rem 2rem 0.5rem rgb(11, 252, 31);
+    background-color: rgb(1, 201, 18);
+}
+
+.semaphor{
+    background-color: rgb(10, 0, 0);
+    width: 6rem;
+}
