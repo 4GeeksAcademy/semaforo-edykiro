@@ -45,4 +45,29 @@
 .semaphor{
     background-color: rgb(10, 0, 0);
     width: 6rem;
+    border-radius: 30px;
+}
+
+.palo-semaforo{
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    position:absolute;
+}
+
+.palo-horizontal{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    position:absolute;
+}
+
+.top{
+    height: 50px;
+}
+
+body{
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Ffotos-premium%2Fcalle-llena-mucho-trafico-al-lado-edificios-altos_662214-489828.jpg&f=1&nofb=1&ipt=4f9d69c75449930a5a2a7a0bd98d7030506c07ac719bb896a8599c4e6a4928f0);
+    background-size: cover;
+    height:100%
 }
